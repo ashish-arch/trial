@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.icon-bar{
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3));
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    position: fixed;
+}
+
+.btext{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     animation-name:move;
+  animation-duration: 3s;
+  
+}
+
+@keyframes move{
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+.h1{
+    font-size: 50px;
+}
+
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border: #ccc 1px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    line-height: 4em;
+}
+
+.btn:hover{
+    color: #b19295;
+    border: #fff 1px solid;
+}
+
+#particles-js{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)) ,url(./images/backlight-blue-colorful-1150988-min.jpg);
+    height: 100vh;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.icon-bar a {
+  float: left;
+  text-align: center;
+  
+  padding: 12px 0; 
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 2.2vw;
+  text-decoration: none;
+}
+
+.heading1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 6vw;
+    font-size: 5vw;
+    color: white;
+    padding-left: 4vw;
+    animation-name:move;
+  animation-duration: 7.5s;
+  
+}
+
+@keyframes move{
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.second1{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)) ,url(./images/confused-digital-nomad-electronics-874242.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.img1{
+    padding-left: 60vw;
+}
+
+.third{
+    background: url(./images/activist-anonymous-ddos-attack-38275.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.heading2{
+    color: white;
+    padding-top: 21vw;
+    padding-left: 53vw;
+    font-size: 4vw;
+    animation-name:move;
+  animation-duration: 5s;
+  
+}
+
+@keyframes move{
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+
+.page3{
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) , url(./images/contacts.JPG);
+  min-height: 100vh;
+  height: 100%;
+}
+.d{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    font-size: 4rem;
+    padding-left: 59vw;
+    padding-top: 5vw;
+}
+.e{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.inputvalues{
+    background: darkgray;
+    width: 23rem;
+    height: 2rem;
+    border: none;
+    text-align: center;
+}
+
+.button{
+    width: 23rem;
+    height: 2rem;
+    background: rgb(43, 226, 134);
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.bottom_Page{
+
+  background-position: center;
+  background: black;
+  min-height: 50vh;
+  height: 100%;
+}
+
+.social{
+  color: white;
+  font-size: 3rem;
+}
+
+.bottom_heading{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.g{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.z{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+  padding-left: 950px;
+}
+
+.body3_login{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/backlight-blue-colorful-1150988-min.jpg);
+  min-height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+
+.inputvalues2_login{
+  width: 430px;
+    margin: 0 auto;
+    padding: 5px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),white;
+    border: none;
+}
+
+#login{
+    width: 45vw;
+    height: 44vw;
+    margin: 0 auto;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #2c3e50;
+    color:whitesmoke;
+    background: transparent;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+
+    
+}
+
+.h_2{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 7vw;
+}
+
+
+
+.myform1_login{
+    width: 450px;
+    margin: 0 auto;
+}
+.inputvalues1{
+    width: 430px;
+    margin: 0 auto;
+    padding: 5px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    border: none;
+}
+
+.button1_login{
+  width: 27rem;
+    height: 2rem;
+    background: green;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.btext1{
+      color: #f9f3f4;
+    position: absolute;
+    text-align: justify;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.body2_login {
+    width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/backlight-blue-colorful-1150988-min.jpg);
+  min-height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  
+}
+
+#login_register{
+    width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #2c3e50;
+    color:whitesmoke;
+    background: transparent;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.h2_register{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
